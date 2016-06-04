@@ -7,5 +7,5 @@ source venv/bin/activate  # activate virtualenv
 pip install numpy scipy matplotlib
 chmod +x install_dependencies_linux.sh compile_libraries_linux.sh compile_linux.sh
 ./install_dependencies_linux.sh
-./compile_libraries_linux.sh --with-python-version 3.5 boost ref_blas_lapack umfpack idas superlu superlu_mt bonmin nlopt
-./compile_linux.sh --with-python-version 3.5 dae superlu superlu_mt ipopt bonmin nlopt
+./compile_libraries_linux.sh --with-python-version 3.5 boost ref_blas_lapack umfpack idas superlu superlu_mt bonmin nlopt  # compile everything except Trilinos and deal.II
+./compile_linux.sh --with-python-version 3.5 dae superlu superlu_mt ipopt bonmin nlopt  # compile everything except Trilinos and deal.II
