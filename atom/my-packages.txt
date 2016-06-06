@@ -1,6 +1,3 @@
-atom-material-syntax@0.4.6
-atom-material-syntax-light@0.4.5
-atom-material-ui@1.2.10
 auto-indent@0.5.0
 autocomplete-python@1.7.2
 file-icons@1.7.8
