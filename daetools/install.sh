@@ -3,6 +3,7 @@
 svn checkout svn://svn.code.sf.net/p/daetools/code/trunk daetools-code
 virtualenv venv -p python3  # create virtualenv for Python 3
 source venv/bin/activate  # activate virtualenv
+pip install -U pip
 pip install numpy scipy matplotlib
 cd daetools-code
 chmod +x install_dependencies_linux.sh compile_libraries_linux.sh compile_linux.sh
