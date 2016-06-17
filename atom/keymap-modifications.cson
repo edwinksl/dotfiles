@@ -1,9 +1,13 @@
 # Add to end of keymap.cson
 
 # Change keystroke for hydrogen:run-and-move-down command to avoid clashing with keystroke for hyperclick:confirm-cursor command
-'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
-  'shift-enter': 'hydrogen:run-and-move-down'
+# '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  # 'shift-enter': 'hydrogen:run-and-move-down'
 
 # Change keystroke for hydrogen:clear-results command to avoid clashing with keystroke for editor:delete-to-beginning-of-word command
 '.platform-win32 atom-workspace, .platform-linux atom-workspace':
   'alt-shift-backspace': 'hydrogen:clear-results'
+
+# Add keystroke for hydrogen:run-all-above command
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'shift-enter': 'hydrogen:run-all-above'
