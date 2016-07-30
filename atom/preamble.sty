@@ -1,0 +1,26 @@
+% Write preamble as a package
+% See http://tex.stackexchange.com/q/77/5106
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{preamble}[2016/02/02 Edwin Khoo's preamble]
+
+\RequirePackage{amsopn}
+
+% Fix spaces around \left and \right
+% See http://tex.stackexchange.com/q/2607/5106
+\let\originalleft\left
+\let\originalright\right
+\renewcommand{\left}{\mathopen{}\mathclose\bgroup\originalleft}
+\renewcommand{\right}{\aftergroup\egroup\originalright}
+
+% Math
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\ud}{\,\mathrm{d}}
+\DeclareMathOperator{\erf}{erf}
+\DeclareMathOperator{\erfc}{erfc}
+
+% Subscripts
+\newcommand{\textn}[1]{\textnormal{#1}}  % See http://tex.stackexchange.com/q/98406/5106
+\newcommand{\limn}{\textn{lim}}
+
+\endinput
