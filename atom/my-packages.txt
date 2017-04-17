@@ -8,7 +8,7 @@ hyperclick@0.0.40
 intentions@1.1.2
 language-cython@0.3.0
 language-latex@1.0.0
-language-markdown@0.20.0
+language-markdown@0.21.0
 language-matlab@0.2.1
 language-restructuredtext@1.1.0
 latex@0.43.0
