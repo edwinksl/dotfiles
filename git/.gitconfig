@@ -1,0 +1,8 @@
+[user]
+	name = Edwin Khoo
+	email = edwinksl@gmail.com
+[alias]
+	hist = log --pretty=format:\"%C(auto)%h %ad | %s%d [%an]\" --graph --date=short
+	diffc = diff --color-words
+[core]
+	editor = atom-beta --wait
