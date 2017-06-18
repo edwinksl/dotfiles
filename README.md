@@ -7,7 +7,7 @@ This is a repository for managing dotfiles by using [`stow`](https://www.gnu.org
 1. `cd`
 2. `git clone https://github.com/edwinksl/dotfiles.git`
 3. `cd dotfiles/`
-4. List directory structure: `tree -a -I ".git|*.md"`
+4. List directory structure: `tree -a -I ".git"`
 5. Copy symlinks for all packages: `stow --adopt */`
 
 ## Delete packages
