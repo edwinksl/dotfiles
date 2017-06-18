@@ -3,6 +3,8 @@
 	email = edwinksl@gmail.com
 [alias]
 	hist = log --pretty=format:\"%C(auto)%h %ad | %s%d [%an]\" --graph --date=short
-	diffc = diff --color-words
+	diffc = diff --cached
+	diffw = diff --color-words
+	diffwc = diff --color-words --cached
 [core]
 	editor = atom-beta --wait
