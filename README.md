@@ -20,7 +20,7 @@ This is a repository for managing dotfiles by using [`stow`](https://www.gnu.org
 
 ## Maintain targets
 
-1. Check `~` for bogus symlinks: `chkstow ~`
+1. Check `~` for bogus symlinks: `chkstow -t ~`
 
 # Resources
 1. `stow` documentation: https://www.gnu.org/software/stow/manual/stow.html
