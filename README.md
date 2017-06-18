@@ -14,5 +14,9 @@ This is a repository for managing dotfiles by using [`stow`](https://www.gnu.org
 
 1. Delete symlinks for all packages: `stow -D */`
 
+## Restow packages
+
+1. Restow all packages: `stow -R */`
+
 # Resources
 1. `stow` documentation: https://www.gnu.org/software/stow/manual/stow.html
