@@ -18,5 +18,9 @@ This is a repository for managing dotfiles by using [`stow`](https://www.gnu.org
 
 1. Restow all packages: `stow -R */`
 
+## Maintain targets
+
+1. Check `~` for bogus symlinks: `chkstow ~`
+
 # Resources
 1. `stow` documentation: https://www.gnu.org/software/stow/manual/stow.html
