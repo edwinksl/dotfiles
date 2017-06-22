@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import errno
 import os
 import sys
 
@@ -35,5 +36,9 @@ args = [[pyqt4_dist, pyqt4_site], [sip_dist, sip_site]]
 for arg in args:
     try:
         os.symlink(*arg)
-    except FileExistsError:
-        continue
+    # except FileExistsError:  # does not work in Python 2
+    except OSError as err:
+        if err.errno == errno.EEXIST:
+            continue
+        else:
+            raise
