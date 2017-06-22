@@ -2,7 +2,6 @@
 
 import os
 import sys
-from builtins import FileExistsError
 
 try:
     venv = os.environ['VIRTUAL_ENV']
