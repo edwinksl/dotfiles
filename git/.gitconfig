@@ -3,9 +3,6 @@
 	email = edwinksl@gmail.com
 [alias]
 	hist = log --pretty=format:\"%C(auto)%h %ad | %s%d [%an]\" --graph --date=short
-	diffc = diff --cached
-	diffw = diff --color-words
-	diffwc = diff --color-words --cached
 	dsf = "!f() { [ -z \"$GIT_PREFIX\" ] || cd \"$GIT_PREFIX\" && git diff --color \"$@\" | diff-so-fancy | less --tabs=4 -RFX; }; f"
 	dsfc = "!f() { [ -z \"$GIT_PREFIX\" ] || cd \"$GIT_PREFIX\" && git diff --color \"$@\" | diff-so-fancy | less --tabs=4 -RFX; }; f --cached"
 [core]
