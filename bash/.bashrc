@@ -136,3 +136,5 @@ GIT_PROMPT_ONLY_IN_REPO=1
 # GIT_PROMPT_THEME_FILE=~/.git-prompt-colors.sh
 GIT_PROMPT_THEME=Single_line_Ubuntu_dark
 source ~/.bash-git-prompt/gitprompt.sh
+
+export GPG_TTY=$(tty)
