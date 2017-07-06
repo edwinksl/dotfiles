@@ -138,3 +138,5 @@ GIT_PROMPT_THEME=Single_line_Ubuntu_dark
 source ~/.bash-git-prompt/gitprompt.sh
 
 export GPG_TTY=$(tty)
+
+eval "$(_TMUXP_COMPLETE=source tmuxp)"
