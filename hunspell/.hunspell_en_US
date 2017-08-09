@@ -451,3 +451,7 @@ Qualys
 'UA
 1'
 'auto'
+app
+uWSGI
+mkdir
+uwsgi
