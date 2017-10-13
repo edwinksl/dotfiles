@@ -477,3 +477,8 @@ params
 unix
 sammy
 functionalized
+fsolve
+fzero
+BV
+mA
+mol
