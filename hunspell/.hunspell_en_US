@@ -530,3 +530,5 @@ env'
 TOKEN'
 'DigitalOcean
 systemd
+myproject
+myprojectenv
