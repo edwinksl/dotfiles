@@ -140,3 +140,5 @@ source ~/.bash-git-prompt/gitprompt.sh
 export GPG_TTY=$(tty)
 
 eval "$(_TMUXP_COMPLETE=source tmuxp)"
+
+alias matlab='matlab -nodesktop -nosplash'
