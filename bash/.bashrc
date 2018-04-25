@@ -142,5 +142,5 @@ export GPG_TTY=$(tty)
 eval "$(_TMUXP_COMPLETE=source tmuxp)"
 
 alias matlab='matlab -nodesktop -nosplash'
-alias matlab18a = '/usr/local/MATLAB/R2018a/bin/matlab -nodesktop -nosplash'
-alias matlab17b = '/usr/local/MATLAB/R2017b/bin/matlab -nodesktop -nosplash'
+alias matlab18a='/usr/local/MATLAB/R2018a/bin/matlab -nodesktop -nosplash'
+alias matlab17b='/usr/local/MATLAB/R2017b/bin/matlab -nodesktop -nosplash'
