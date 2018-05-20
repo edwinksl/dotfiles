@@ -21,3 +21,6 @@ PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
 # CUDA Toolkit 9.2
 PATH=/usr/local/cuda-9.2/bin${PATH:+:${PATH}}
+
+# NVIDIA CUDA Profile Tools Interface
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+${LD_LIBRARY_PATH}:}/usr/local/cuda/extras/CUPTI/lib64
