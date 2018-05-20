@@ -19,8 +19,8 @@ fi
 # set PATH so it includes user's private bin directories
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
-# CUDA Toolkit 9.2
-PATH=/usr/local/cuda-9.2/bin${PATH:+:${PATH}}
+# CUDA Toolkit 9.0
+PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
 
 # NVIDIA CUDA Profile Tools Interface
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+${LD_LIBRARY_PATH}:}/usr/local/cuda/extras/CUPTI/lib64
