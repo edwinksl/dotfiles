@@ -18,3 +18,6 @@ fi
 
 # set PATH so it includes user's private bin directories
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+
+# CUDA Toolkit 9.2
+PATH=/usr/local/cuda-9.2/bin${PATH:+:${PATH}}
