@@ -144,3 +144,19 @@ eval "$(_TMUXP_COMPLETE=source tmuxp)"
 alias matlab='matlab -nodesktop -nosplash'
 alias matlab18a='/usr/local/MATLAB/R2018a/bin/matlab -nodesktop -nosplash'
 alias matlab17b='/usr/local/MATLAB/R2017b/bin/matlab -nodesktop -nosplash'
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/edwinksl/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/edwinksl/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/edwinksl/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/edwinksl/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
