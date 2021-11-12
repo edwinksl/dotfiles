@@ -27,7 +27,7 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 # CUDA Toolkit 9.0
-PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
+# PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
 
 # NVIDIA CUDA Profile Tools Interface
-export LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+${LD_LIBRARY_PATH}:}/usr/local/cuda/extras/CUPTI/lib64
+# export LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+${LD_LIBRARY_PATH}:}/usr/local/cuda/extras/CUPTI/lib64
