@@ -14,7 +14,4 @@
 [interactive]
 	diffFilter = diff-so-fancy --patch
 [credential]
-	helper = /usr/local/bin/git-credential-manager
-	credentialStore = cache
-[credential "https://dev.azure.com"]
-	useHttpPath = true
+	credentialStore = gpg
