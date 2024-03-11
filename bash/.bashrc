@@ -115,3 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+GPG_TTY=$(tty)
+export GPG_TTY
