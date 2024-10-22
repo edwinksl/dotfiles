@@ -16,6 +16,7 @@
 	navigate = true
 	light = false
 	theme = Coldark-Dark
+	true-color = always
 [merge]
 	conflictstyle = diff3
 [diff]
