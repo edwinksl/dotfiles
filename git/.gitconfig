@@ -21,8 +21,8 @@
 [diff]
 	colorMoved = default
 [credential]
-	credentialStore = gpg
-	helper = /usr/local/bin/git-credential-manager
+	# credentialStore = gpg
+	helper = /mnt/c/Users/ekhoo/AppData/Local/Programs/Git/mingw64/bin/git-credential-manager.exe
 [credential "https://dev.azure.com"]
 	useHttpPath = true
 [init]
